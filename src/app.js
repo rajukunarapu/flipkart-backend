@@ -25,9 +25,6 @@ app.use(cors({
 }))
 
 // for routes
-app.get('/',(req,res)=>{
-    res.json("Hello world")
-})
 app.use('/auth', authRoutes)
 
 
